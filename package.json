@@ -1,0 +1,32 @@
+{
+  "name": "interstellar",
+  "version": "1.0.0",
+  "description": "Simple Stellar wallet built with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luc457x/interstellar_wallet.git"
+  },
+  "keywords": [
+    "stellar",
+    "xlm",
+    "crypto",
+    "cryptocurrency",
+    "wallet",
+    "blockchain",
+    "web3"
+  ],
+  "author": "luc457x",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/luc457x/interstellar_wallet/issues"
+  },
+  "homepage": "https://github.com/luc457x/interstellar_wallet#readme",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^12.3.0",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Stellar', sans-serif;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/space.png');
+    background-size: cover;
+}
+
+button {
+    padding: 0px 2px;
+}
+
+#login {
+    /* display: none; uncomment after fixing main.js */
+}
+
+.outer {
+    background-color: silver;
+    border: 2dvh outset silver;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer div {
+    border: 1dvh solid silver;
+}
+
+.inner {
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterStellar Wallet</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="outer">
+        <div class="inner">
+            <h1> InterStellar Wallet </h1>
+            <div class="buttons" id="login">
+                <button onclick="callCreateWallet()">Create wallet</button>
+                <button onclick="callImportWallet()">Import wallet</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/functions.js"></script>
+    <script>
+        function callCreateWallet() {
+            create_wallet();
+        }
+        function callImportWallet() {
+            import_wallet();
+        }
+    </script>
+</body>
+
+
+</html>
